@@ -1,0 +1,585 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		B84EF16E2259087000A29D13 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = B84EF16D2259087000A29D13 /* AppDelegate.swift */; };
+		B84EF1702259087000A29D13 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = B84EF16F2259087000A29D13 /* ViewController.swift */; };
+		B84EF1732259087000A29D13 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = B84EF1712259087000A29D13 /* Main.storyboard */; };
+		B84EF1752259087100A29D13 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = B84EF1742259087100A29D13 /* Assets.xcassets */; };
+		B84EF1782259087100A29D13 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = B84EF1762259087100A29D13 /* LaunchScreen.storyboard */; };
+		B84EF1832259087100A29D13 /* Dancing_DreamTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = B84EF1822259087100A29D13 /* Dancing_DreamTests.swift */; };
+		B84EF18E2259087100A29D13 /* Dancing_DreamUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = B84EF18D2259087100A29D13 /* Dancing_DreamUITests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		B84EF17F2259087100A29D13 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = B84EF1622259086F00A29D13 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = B84EF1692259087000A29D13;
+			remoteInfo = "Dancing Dream";
+		};
+		B84EF18A2259087100A29D13 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = B84EF1622259086F00A29D13 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = B84EF1692259087000A29D13;
+			remoteInfo = "Dancing Dream";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		B84EF16A2259087000A29D13 /* Dancing Dream.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Dancing Dream.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		B84EF16D2259087000A29D13 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		B84EF16F2259087000A29D13 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		B84EF1722259087000A29D13 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		B84EF1742259087100A29D13 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		B84EF1772259087100A29D13 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		B84EF1792259087100A29D13 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		B84EF17E2259087100A29D13 /* Dancing DreamTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Dancing DreamTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		B84EF1822259087100A29D13 /* Dancing_DreamTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Dancing_DreamTests.swift; sourceTree = "<group>"; };
+		B84EF1842259087100A29D13 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		B84EF1892259087100A29D13 /* Dancing DreamUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Dancing DreamUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		B84EF18D2259087100A29D13 /* Dancing_DreamUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Dancing_DreamUITests.swift; sourceTree = "<group>"; };
+		B84EF18F2259087100A29D13 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		B84EF1672259087000A29D13 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		B84EF17B2259087100A29D13 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		B84EF1862259087100A29D13 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		B84EF1612259086F00A29D13 = {
+			isa = PBXGroup;
+			children = (
+				B84EF16C2259087000A29D13 /* Dancing Dream */,
+				B84EF1812259087100A29D13 /* Dancing DreamTests */,
+				B84EF18C2259087100A29D13 /* Dancing DreamUITests */,
+				B84EF16B2259087000A29D13 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		B84EF16B2259087000A29D13 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				B84EF16A2259087000A29D13 /* Dancing Dream.app */,
+				B84EF17E2259087100A29D13 /* Dancing DreamTests.xctest */,
+				B84EF1892259087100A29D13 /* Dancing DreamUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		B84EF16C2259087000A29D13 /* Dancing Dream */ = {
+			isa = PBXGroup;
+			children = (
+				B84EF16D2259087000A29D13 /* AppDelegate.swift */,
+				B84EF16F2259087000A29D13 /* ViewController.swift */,
+				B84EF1712259087000A29D13 /* Main.storyboard */,
+				B84EF1742259087100A29D13 /* Assets.xcassets */,
+				B84EF1762259087100A29D13 /* LaunchScreen.storyboard */,
+				B84EF1792259087100A29D13 /* Info.plist */,
+			);
+			path = "Dancing Dream";
+			sourceTree = "<group>";
+		};
+		B84EF1812259087100A29D13 /* Dancing DreamTests */ = {
+			isa = PBXGroup;
+			children = (
+				B84EF1822259087100A29D13 /* Dancing_DreamTests.swift */,
+				B84EF1842259087100A29D13 /* Info.plist */,
+			);
+			path = "Dancing DreamTests";
+			sourceTree = "<group>";
+		};
+		B84EF18C2259087100A29D13 /* Dancing DreamUITests */ = {
+			isa = PBXGroup;
+			children = (
+				B84EF18D2259087100A29D13 /* Dancing_DreamUITests.swift */,
+				B84EF18F2259087100A29D13 /* Info.plist */,
+			);
+			path = "Dancing DreamUITests";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		B84EF1692259087000A29D13 /* Dancing Dream */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = B84EF1922259087100A29D13 /* Build configuration list for PBXNativeTarget "Dancing Dream" */;
+			buildPhases = (
+				B84EF1662259087000A29D13 /* Sources */,
+				B84EF1672259087000A29D13 /* Frameworks */,
+				B84EF1682259087000A29D13 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Dancing Dream";
+			productName = "Dancing Dream";
+			productReference = B84EF16A2259087000A29D13 /* Dancing Dream.app */;
+			productType = "com.apple.product-type.application";
+		};
+		B84EF17D2259087100A29D13 /* Dancing DreamTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = B84EF1952259087100A29D13 /* Build configuration list for PBXNativeTarget "Dancing DreamTests" */;
+			buildPhases = (
+				B84EF17A2259087100A29D13 /* Sources */,
+				B84EF17B2259087100A29D13 /* Frameworks */,
+				B84EF17C2259087100A29D13 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				B84EF1802259087100A29D13 /* PBXTargetDependency */,
+			);
+			name = "Dancing DreamTests";
+			productName = "Dancing DreamTests";
+			productReference = B84EF17E2259087100A29D13 /* Dancing DreamTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		B84EF1882259087100A29D13 /* Dancing DreamUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = B84EF1982259087100A29D13 /* Build configuration list for PBXNativeTarget "Dancing DreamUITests" */;
+			buildPhases = (
+				B84EF1852259087100A29D13 /* Sources */,
+				B84EF1862259087100A29D13 /* Frameworks */,
+				B84EF1872259087100A29D13 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				B84EF18B2259087100A29D13 /* PBXTargetDependency */,
+			);
+			name = "Dancing DreamUITests";
+			productName = "Dancing DreamUITests";
+			productReference = B84EF1892259087100A29D13 /* Dancing DreamUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		B84EF1622259086F00A29D13 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1020;
+				LastUpgradeCheck = 1020;
+				ORGANIZATIONNAME = "Wade Li";
+				TargetAttributes = {
+					B84EF1692259087000A29D13 = {
+						CreatedOnToolsVersion = 10.2;
+					};
+					B84EF17D2259087100A29D13 = {
+						CreatedOnToolsVersion = 10.2;
+						TestTargetID = B84EF1692259087000A29D13;
+					};
+					B84EF1882259087100A29D13 = {
+						CreatedOnToolsVersion = 10.2;
+						TestTargetID = B84EF1692259087000A29D13;
+					};
+				};
+			};
+			buildConfigurationList = B84EF1652259086F00A29D13 /* Build configuration list for PBXProject "Dancing Dream" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = B84EF1612259086F00A29D13;
+			productRefGroup = B84EF16B2259087000A29D13 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				B84EF1692259087000A29D13 /* Dancing Dream */,
+				B84EF17D2259087100A29D13 /* Dancing DreamTests */,
+				B84EF1882259087100A29D13 /* Dancing DreamUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		B84EF1682259087000A29D13 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B84EF1782259087100A29D13 /* LaunchScreen.storyboard in Resources */,
+				B84EF1752259087100A29D13 /* Assets.xcassets in Resources */,
+				B84EF1732259087000A29D13 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		B84EF17C2259087100A29D13 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		B84EF1872259087100A29D13 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		B84EF1662259087000A29D13 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B84EF1702259087000A29D13 /* ViewController.swift in Sources */,
+				B84EF16E2259087000A29D13 /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		B84EF17A2259087100A29D13 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B84EF1832259087100A29D13 /* Dancing_DreamTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		B84EF1852259087100A29D13 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B84EF18E2259087100A29D13 /* Dancing_DreamUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		B84EF1802259087100A29D13 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = B84EF1692259087000A29D13 /* Dancing Dream */;
+			targetProxy = B84EF17F2259087100A29D13 /* PBXContainerItemProxy */;
+		};
+		B84EF18B2259087100A29D13 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = B84EF1692259087000A29D13 /* Dancing Dream */;
+			targetProxy = B84EF18A2259087100A29D13 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		B84EF1712259087000A29D13 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				B84EF1722259087000A29D13 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		B84EF1762259087100A29D13 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				B84EF1772259087100A29D13 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		B84EF1902259087100A29D13 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.2;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		B84EF1912259087100A29D13 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		B84EF1932259087100A29D13 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = "Dancing Dream/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "wade.Dancing-Dream";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		B84EF1942259087100A29D13 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = "Dancing Dream/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "wade.Dancing-Dream";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		B84EF1962259087100A29D13 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = "Dancing DreamTests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "wade.Dancing-DreamTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Dancing Dream.app/Dancing Dream";
+			};
+			name = Debug;
+		};
+		B84EF1972259087100A29D13 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = "Dancing DreamTests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "wade.Dancing-DreamTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Dancing Dream.app/Dancing Dream";
+			};
+			name = Release;
+		};
+		B84EF1992259087100A29D13 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = "Dancing DreamUITests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "wade.Dancing-DreamUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = "Dancing Dream";
+			};
+			name = Debug;
+		};
+		B84EF19A2259087100A29D13 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = "Dancing DreamUITests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "wade.Dancing-DreamUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = "Dancing Dream";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		B84EF1652259086F00A29D13 /* Build configuration list for PBXProject "Dancing Dream" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				B84EF1902259087100A29D13 /* Debug */,
+				B84EF1912259087100A29D13 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		B84EF1922259087100A29D13 /* Build configuration list for PBXNativeTarget "Dancing Dream" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				B84EF1932259087100A29D13 /* Debug */,
+				B84EF1942259087100A29D13 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		B84EF1952259087100A29D13 /* Build configuration list for PBXNativeTarget "Dancing DreamTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				B84EF1962259087100A29D13 /* Debug */,
+				B84EF1972259087100A29D13 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		B84EF1982259087100A29D13 /* Build configuration list for PBXNativeTarget "Dancing DreamUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				B84EF1992259087100A29D13 /* Debug */,
+				B84EF19A2259087100A29D13 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = B84EF1622259086F00A29D13 /* Project object */;
+}
