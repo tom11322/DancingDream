@@ -7,13 +7,23 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		1406CA460D92761BDD0F4750 /* Pods_Dancing_DreamUITests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 48003C7CB7B3ECEC08B2A407 /* Pods_Dancing_DreamUITests.framework */; };
+		9D0DDC4827971BCAA561DBA2 /* Pods_Dancing_DreamTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 69C0DF4ED01DE85FA2C3970D /* Pods_Dancing_DreamTests.framework */; };
+		AC8B59E60ACA9451E9B3C638 /* Pods_Dancing_Dream.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = EEAF224A2DACAFE9D652324A /* Pods_Dancing_Dream.framework */; };
 		B84EF16E2259087000A29D13 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = B84EF16D2259087000A29D13 /* AppDelegate.swift */; };
-		B84EF1702259087000A29D13 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = B84EF16F2259087000A29D13 /* ViewController.swift */; };
 		B84EF1732259087000A29D13 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = B84EF1712259087000A29D13 /* Main.storyboard */; };
 		B84EF1752259087100A29D13 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = B84EF1742259087100A29D13 /* Assets.xcassets */; };
 		B84EF1782259087100A29D13 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = B84EF1762259087100A29D13 /* LaunchScreen.storyboard */; };
 		B84EF1832259087100A29D13 /* Dancing_DreamTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = B84EF1822259087100A29D13 /* Dancing_DreamTests.swift */; };
 		B84EF18E2259087100A29D13 /* Dancing_DreamUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = B84EF18D2259087100A29D13 /* Dancing_DreamUITests.swift */; };
+		B8A456D3225A3C4D0085EDAA /* PostCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = B8A456D2225A3C4D0085EDAA /* PostCell.swift */; };
+		B8A456D5225A3D5B0085EDAA /* ChatViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = B8A456D4225A3D5B0085EDAA /* ChatViewController.swift */; };
+		B8A456D7225A43530085EDAA /* s.json in Resources */ = {isa = PBXBuildFile; fileRef = B8A456D6225A43530085EDAA /* s.json */; };
+		B8AC57C72259F756002EFBC9 /* GuestViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = B8AC57C62259F756002EFBC9 /* GuestViewController.swift */; };
+		B8B7444B2259113E00153240 /* MemberViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = B8B7444A2259113E00153240 /* MemberViewController.swift */; };
+		B8B7444F225924BA00153240 /* LoginViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = B8B7444E225924BA00153240 /* LoginViewController.swift */; };
+		B8B7445222596B6C00153240 /* InfoCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = B8B7445122596B6C00153240 /* InfoCell.swift */; };
+		B8B744542259739200153240 /* SchoolCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = B8B744532259739200153240 /* SchoolCell.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -34,9 +44,13 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		0CA885BE416408B8D1177C44 /* Pods-Dancing DreamUITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Dancing DreamUITests.release.xcconfig"; path = "Target Support Files/Pods-Dancing DreamUITests/Pods-Dancing DreamUITests.release.xcconfig"; sourceTree = "<group>"; };
+		0ED6E574B190259D958CA6AC /* Pods-Dancing Dream.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Dancing Dream.release.xcconfig"; path = "Target Support Files/Pods-Dancing Dream/Pods-Dancing Dream.release.xcconfig"; sourceTree = "<group>"; };
+		48003C7CB7B3ECEC08B2A407 /* Pods_Dancing_DreamUITests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Dancing_DreamUITests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		69C0DF4ED01DE85FA2C3970D /* Pods_Dancing_DreamTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Dancing_DreamTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		8D8E645164BB288947F3E9DB /* Pods-Dancing DreamTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Dancing DreamTests.debug.xcconfig"; path = "Target Support Files/Pods-Dancing DreamTests/Pods-Dancing DreamTests.debug.xcconfig"; sourceTree = "<group>"; };
 		B84EF16A2259087000A29D13 /* Dancing Dream.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Dancing Dream.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		B84EF16D2259087000A29D13 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		B84EF16F2259087000A29D13 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
 		B84EF1722259087000A29D13 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		B84EF1742259087100A29D13 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		B84EF1772259087100A29D13 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
@@ -47,6 +61,18 @@
 		B84EF1892259087100A29D13 /* Dancing DreamUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Dancing DreamUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		B84EF18D2259087100A29D13 /* Dancing_DreamUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Dancing_DreamUITests.swift; sourceTree = "<group>"; };
 		B84EF18F2259087100A29D13 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		B8A456D2225A3C4D0085EDAA /* PostCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PostCell.swift; sourceTree = "<group>"; };
+		B8A456D4225A3D5B0085EDAA /* ChatViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ChatViewController.swift; sourceTree = "<group>"; };
+		B8A456D6225A43530085EDAA /* s.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = s.json; sourceTree = "<group>"; };
+		B8AC57C62259F756002EFBC9 /* GuestViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = GuestViewController.swift; sourceTree = "<group>"; };
+		B8B7444A2259113E00153240 /* MemberViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MemberViewController.swift; sourceTree = "<group>"; };
+		B8B7444E225924BA00153240 /* LoginViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginViewController.swift; sourceTree = "<group>"; };
+		B8B7445122596B6C00153240 /* InfoCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = InfoCell.swift; sourceTree = "<group>"; };
+		B8B744532259739200153240 /* SchoolCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SchoolCell.swift; sourceTree = "<group>"; };
+		C2BE17874FC76D80C68B772D /* Pods-Dancing DreamTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Dancing DreamTests.release.xcconfig"; path = "Target Support Files/Pods-Dancing DreamTests/Pods-Dancing DreamTests.release.xcconfig"; sourceTree = "<group>"; };
+		D64493C30CE2736D66EB1450 /* Pods-Dancing Dream.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Dancing Dream.debug.xcconfig"; path = "Target Support Files/Pods-Dancing Dream/Pods-Dancing Dream.debug.xcconfig"; sourceTree = "<group>"; };
+		E6C86758089821818366F51A /* Pods-Dancing DreamUITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Dancing DreamUITests.debug.xcconfig"; path = "Target Support Files/Pods-Dancing DreamUITests/Pods-Dancing DreamUITests.debug.xcconfig"; sourceTree = "<group>"; };
+		EEAF224A2DACAFE9D652324A /* Pods_Dancing_Dream.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Dancing_Dream.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -54,6 +80,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				AC8B59E60ACA9451E9B3C638 /* Pods_Dancing_Dream.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -61,6 +88,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				9D0DDC4827971BCAA561DBA2 /* Pods_Dancing_DreamTests.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -68,12 +96,36 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				1406CA460D92761BDD0F4750 /* Pods_Dancing_DreamUITests.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		4E220C8C4560B01C26C0472C /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				EEAF224A2DACAFE9D652324A /* Pods_Dancing_Dream.framework */,
+				69C0DF4ED01DE85FA2C3970D /* Pods_Dancing_DreamTests.framework */,
+				48003C7CB7B3ECEC08B2A407 /* Pods_Dancing_DreamUITests.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		6C98E77859859840F8960677 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				D64493C30CE2736D66EB1450 /* Pods-Dancing Dream.debug.xcconfig */,
+				0ED6E574B190259D958CA6AC /* Pods-Dancing Dream.release.xcconfig */,
+				8D8E645164BB288947F3E9DB /* Pods-Dancing DreamTests.debug.xcconfig */,
+				C2BE17874FC76D80C68B772D /* Pods-Dancing DreamTests.release.xcconfig */,
+				E6C86758089821818366F51A /* Pods-Dancing DreamUITests.debug.xcconfig */,
+				0CA885BE416408B8D1177C44 /* Pods-Dancing DreamUITests.release.xcconfig */,
+			);
+			path = Pods;
+			sourceTree = "<group>";
+		};
 		B84EF1612259086F00A29D13 = {
 			isa = PBXGroup;
 			children = (
@@ -81,6 +133,8 @@
 				B84EF1812259087100A29D13 /* Dancing DreamTests */,
 				B84EF18C2259087100A29D13 /* Dancing DreamUITests */,
 				B84EF16B2259087000A29D13 /* Products */,
+				6C98E77859859840F8960677 /* Pods */,
+				4E220C8C4560B01C26C0472C /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -97,12 +151,19 @@
 		B84EF16C2259087000A29D13 /* Dancing Dream */ = {
 			isa = PBXGroup;
 			children = (
+				B8A456D6225A43530085EDAA /* s.json */,
 				B84EF16D2259087000A29D13 /* AppDelegate.swift */,
-				B84EF16F2259087000A29D13 /* ViewController.swift */,
 				B84EF1712259087000A29D13 /* Main.storyboard */,
 				B84EF1742259087100A29D13 /* Assets.xcassets */,
 				B84EF1762259087100A29D13 /* LaunchScreen.storyboard */,
 				B84EF1792259087100A29D13 /* Info.plist */,
+				B8B7444A2259113E00153240 /* MemberViewController.swift */,
+				B8B7444E225924BA00153240 /* LoginViewController.swift */,
+				B8B7445122596B6C00153240 /* InfoCell.swift */,
+				B8B744532259739200153240 /* SchoolCell.swift */,
+				B8AC57C62259F756002EFBC9 /* GuestViewController.swift */,
+				B8A456D2225A3C4D0085EDAA /* PostCell.swift */,
+				B8A456D4225A3D5B0085EDAA /* ChatViewController.swift */,
 			);
 			path = "Dancing Dream";
 			sourceTree = "<group>";
@@ -132,9 +193,11 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = B84EF1922259087100A29D13 /* Build configuration list for PBXNativeTarget "Dancing Dream" */;
 			buildPhases = (
+				D38A8B8F2B492CC99CD90073 /* [CP] Check Pods Manifest.lock */,
 				B84EF1662259087000A29D13 /* Sources */,
 				B84EF1672259087000A29D13 /* Frameworks */,
 				B84EF1682259087000A29D13 /* Resources */,
+				34A89E4316C7403260A99415 /* [CP] Embed Pods Frameworks */,
 			);
 			buildRules = (
 			);
@@ -149,6 +212,7 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = B84EF1952259087100A29D13 /* Build configuration list for PBXNativeTarget "Dancing DreamTests" */;
 			buildPhases = (
+				C7FA01705EC9B2B3AF1E1DCA /* [CP] Check Pods Manifest.lock */,
 				B84EF17A2259087100A29D13 /* Sources */,
 				B84EF17B2259087100A29D13 /* Frameworks */,
 				B84EF17C2259087100A29D13 /* Resources */,
@@ -167,6 +231,7 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = B84EF1982259087100A29D13 /* Build configuration list for PBXNativeTarget "Dancing DreamUITests" */;
 			buildPhases = (
+				7F2CDE278819175BF198C032 /* [CP] Check Pods Manifest.lock */,
 				B84EF1852259087100A29D13 /* Sources */,
 				B84EF1862259087100A29D13 /* Frameworks */,
 				B84EF1872259087100A29D13 /* Resources */,
@@ -230,6 +295,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				B84EF1782259087100A29D13 /* LaunchScreen.storyboard in Resources */,
+				B8A456D7225A43530085EDAA /* s.json in Resources */,
 				B84EF1752259087100A29D13 /* Assets.xcassets in Resources */,
 				B84EF1732259087000A29D13 /* Main.storyboard in Resources */,
 			);
@@ -251,13 +317,118 @@
 		};
 /* End PBXResourcesBuildPhase section */
 
+/* Begin PBXShellScriptBuildPhase section */
+		34A89E4316C7403260A99415 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-Dancing Dream/Pods-Dancing Dream-frameworks.sh",
+				"${BUILT_PRODUCTS_DIR}/Alamofire/Alamofire.framework",
+				"${BUILT_PRODUCTS_DIR}/AlamofireImage/AlamofireImage.framework",
+				"${BUILT_PRODUCTS_DIR}/Bolts/Bolts.framework",
+				"${BUILT_PRODUCTS_DIR}/MessageInputBar/MessageInputBar.framework",
+				"${BUILT_PRODUCTS_DIR}/Parse/Parse.framework",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/Alamofire.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/AlamofireImage.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/Bolts.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/MessageInputBar.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/Parse.framework",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-Dancing Dream/Pods-Dancing Dream-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		7F2CDE278819175BF198C032 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-Dancing DreamUITests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		C7FA01705EC9B2B3AF1E1DCA /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-Dancing DreamTests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		D38A8B8F2B492CC99CD90073 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-Dancing Dream-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
 /* Begin PBXSourcesBuildPhase section */
 		B84EF1662259087000A29D13 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				B84EF1702259087000A29D13 /* ViewController.swift in Sources */,
+				B8A456D3225A3C4D0085EDAA /* PostCell.swift in Sources */,
+				B8B7444F225924BA00153240 /* LoginViewController.swift in Sources */,
+				B8A456D5225A3D5B0085EDAA /* ChatViewController.swift in Sources */,
+				B8B7444B2259113E00153240 /* MemberViewController.swift in Sources */,
+				B8B744542259739200153240 /* SchoolCell.swift in Sources */,
 				B84EF16E2259087000A29D13 /* AppDelegate.swift in Sources */,
+				B8AC57C72259F756002EFBC9 /* GuestViewController.swift in Sources */,
+				B8B7445222596B6C00153240 /* InfoCell.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -430,9 +601,11 @@
 		};
 		B84EF1932259087100A29D13 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = D64493C30CE2736D66EB1450 /* Pods-Dancing Dream.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = JJ6C9L8RAH;
 				INFOPLIST_FILE = "Dancing Dream/Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
@@ -447,9 +620,11 @@
 		};
 		B84EF1942259087100A29D13 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 0ED6E574B190259D958CA6AC /* Pods-Dancing Dream.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = JJ6C9L8RAH;
 				INFOPLIST_FILE = "Dancing Dream/Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
@@ -464,6 +639,7 @@
 		};
 		B84EF1962259087100A29D13 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 8D8E645164BB288947F3E9DB /* Pods-Dancing DreamTests.debug.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				BUNDLE_LOADER = "$(TEST_HOST)";
@@ -484,6 +660,7 @@
 		};
 		B84EF1972259087100A29D13 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = C2BE17874FC76D80C68B772D /* Pods-Dancing DreamTests.release.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				BUNDLE_LOADER = "$(TEST_HOST)";
@@ -504,6 +681,7 @@
 		};
 		B84EF1992259087100A29D13 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = E6C86758089821818366F51A /* Pods-Dancing DreamUITests.debug.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				CODE_SIGN_STYLE = Automatic;
@@ -523,6 +701,7 @@
 		};
 		B84EF19A2259087100A29D13 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 0CA885BE416408B8D1177C44 /* Pods-Dancing DreamUITests.release.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				CODE_SIGN_STYLE = Automatic;
